@@ -15,7 +15,7 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
+
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -37,7 +37,40 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-      </header>
+      <table class="table1" cellspacing="0" cellpadding="0" border="0">
+
+          <tr>
+            <td class="td1" valign="top" align="center" width="20%"><a
+              href="https://www.linkedin.com/in/alex-golts-0a592b59/"><img class="img1"
+              src="../images/small/linkedin.png"
+              alt="LinkedIn" ></a>
+            </td>
+            <td class="td1" valign="top" align="center" width="20%"><a
+              href="https://github.com/alexgo1"><img class="img1"
+              src="../images/small/github.png"
+              alt="Github" ></a>
+            </td>
+            <td class="td1" valign="top" align="center" width="20%">
+              <center><img class="img1"
+              src="../images/small/email_cropped.png"
+              alt="Email" width="80%">
+              <font size=1px>FirstName @ LastName.net</font></center>
+            </td>
+            <td class="td1" valign="top" align="center" width="20%"><a
+              href="https://medium.com/@alexgo1"><img class="img1"
+              src="../images/small/medium.png"
+              alt="Medium" ></a>
+            </td>
+            <td class="td1" valign="top" align="center" width="20%"><a
+              href="https://twitter.com/goltstar_"><img class="img1"
+              src="../images/small/twitter.png"
+              alt="Twitter" ></a>
+            </td>
+          </tr>
+
+      </table>
+        </header>
+
       <section>
 
       {{ content }}
