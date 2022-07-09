@@ -32,6 +32,7 @@ I enjoy programming puzzles, traveling, spending time with my family, and premie
 * "[Change detection using unsupervised metric learning](https://mega.nz/file/oSwmmSpb#jeWuESVi5SCQSVfKmWeNQXj5SfToNlO-UzMjWZqNFEI)" - "See Beyond Reality" Seminar, Technion, 2019
 
 # Open source
+* I am actively contributing to FuseMedML, a flexible DL framework that facilitates research progress, particularly in biomedical applications. - [link](https://github.com/IBM/fuse-med-ml)   
 * A pytorch implementation of the paper "3D-R2N2: A Unified Approach for Single and Multi-view 3D Object Reconstruction" by Choy et al. - [link](https://github.com/alex-golts/Pytorch-3D-R2N2)
 * My python solutions to all [Advent Of Code](https://adventofcode.com) 2019 programming puzzles - [link](https://github.com/alex-golts/advent_of_code_2019)
 * A deep learning research docker with some nice features - [link](https://github.com/alex-golts/dl_docker)
